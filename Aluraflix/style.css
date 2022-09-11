@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url("https://vhx.imgix.net/belasarteslacarte/assets/2cebc7de-217e-4b32-bcdb-8fdc5214d856-17690376.jpg?auto=format%2Ccompress&fit=crop&h=720&q=75&w=1280");
+    background-color: rgb(88, 100, 100);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    
+  }
+
+  p{
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .titulo{
+    color: #ffffff;
+    margin: 0 0 10px;
+    
+  }
+    
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .logo {
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.151)
+  }
+  
+  .alura {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+  

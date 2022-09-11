@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <H1 class="titulo">Conversor de Moedas</H1>
+        <p class="subtitulo">Descubra os valores em Real (R$)</p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="logo" alt="">
+        <br><br>
+        <label for="moeda">Insira o valor</label>
+        <input type="number"  id="valor" size="2"/>
+        <br>
+        <button type="submit" onclick="converterDolar()">Converter para dolar</button>
+        <h2 id="valorConvertidoDolar">
+
+        </h2>
+        <button type="submit" onclick="converterEuro()">Converter para Euro</button>
+        <h2 id="valorConvertidoEuro">
+
+        </h2>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="logo-Alura">
+    </a>
+    <script src="conversor.js"></script>
+ 
+</body>
+</html>
