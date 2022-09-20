@@ -8,7 +8,7 @@ function converterDolar() {
 
    let elementoValorConvertido = document.getElementById('valorConvertidoDolar')
 
-   let valorConvertidoDolar = "O resultado em real é R$ " +valorEmReal 
+   let valorConvertidoDolar = "O resultado em real é U$ " +valorEmReal 
 
   elementoValorConvertido.innerHTML = valorConvertidoDolar
 }
@@ -23,7 +23,7 @@ function converterEuro() {
  
     let elementoValorConvertido = document.getElementById('valorConvertidoEuro')
  
-    let valorConvertidoEuro = "O resultado em real é R$ " +valorEmReal 
+    let valorConvertidoEuro = "O resultado em real é €$" +valorEmReal 
  
    elementoValorConvertido.innerHTML = valorConvertidoEuro
  }

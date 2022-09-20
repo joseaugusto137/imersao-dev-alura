@@ -5,7 +5,6 @@ function chutar(){
    console.log(chute)
     let elementoResultado = document.getElementById('resultado')
    
-   
     if(chute > 10 || chute < 0){
     elementoResultado.innerHTML = "Você deve escolher um número de 0 a 10"
    }else if(chute > numeroSecreto){

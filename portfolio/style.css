@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(to right, rgba(240, 188, 237, 0.89), rgb(78, 8, 136));
+  width: 100vw;
+  height: 100vh;
+}
+
+.container{
+    background-color: #e9f0ec;
+    color: #1C1C1C;
+    margin: 84px;
+    padding: 50px;
+    border-radius: 20px ;
+    box-shadow: 6px 6px 6px #0000005b ;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil{
+    display: flex;
+    
+}
+
+img{
+    border-radius: 50%;
+    height: 130px;
+    object-fit: cover;
+    width: 130px;  
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.445);
+}
+
+
+.titulo{
+    margin-left: 15px;
+}
+
+.titulo h1{
+    font-weight: 700;
+    font-size: 35px ;
+}
+
+.titulo p{
+    font-weight: 400;
+    font-size: 20px ;
+}
+
+.tema button{
+    display: flex;
+    align-self: flex-end;
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 8px 16px;
+    margin-left: 80px;
+    background-color: #ecf4ff;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(139, 23, 134, 0.89) 27%, rgb(13, 13, 105) 84%);
+    color: white;
+    margin-top: 30px;
+    padding: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.438);
+    border-radius: 20px 
+}
+.projetos-titulo{
+    list-style: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(219, 200, 200);
+
+}
+
+.projetos-item{
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+
+}
+
+.projetos-item a{
+    color: rgb(216, 201, 201);
+    text-decoration: none;
+}
+
+.dark {
+    background: linear-gradient(to right, rgb(6, 6, 116), rgb(56, 0, 51));
+    background-repeat: no-repeat
+    
+}
+
+.dark .container{
+    background-color: #333439 ;
+    color: #f6f6f6;
+}
+
+.dark .projetos{
+    color: #1c1c1c;
+}
+
+.dark .tema button{
+    background: #1c1c1c;
+    color: #ffff;
+    border: 2px solid #f7f7f7;
+}
